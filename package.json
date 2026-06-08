@@ -1,0 +1,20 @@
+{
+  "name": "QuickDeposit",
+  "version": "1.0.0",
+  "description": "Configure left-click in bank, brewing, kiln, crafting table, smelting, and smithing menus to perform a chosen quantity action (1/5/10/All/etc.) instead of the default.",
+  "packageManager": "yarn@4.9.1",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "main": "src/QuickDeposit.ts",
+  "license": "GPL-3.0-or-later",
+  "author": "matter",
+  "devDependencies": {
+    "@ryelite/core": "^0.1.0",
+    "esbuild": "^0.25.8",
+    "typescript": "^5.8.3"
+  }
+}
