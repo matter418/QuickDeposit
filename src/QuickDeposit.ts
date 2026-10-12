@@ -105,13 +105,16 @@ export default class QuickDeposit extends Plugin {
 
     init(): void {
         this.log("Initialized");
+        // The framework only calls start() once the player is logged in, but the settings
+        // panel is reachable from the login screen, so the header style has to be in
+        // place from init() or the header renders as the raw blue info banner.
+        this.injectHeaderStyle();
     }
 
     start(): void {
         this.log("Started");
         this.installMenuHook();
         this.installPointerListener();
-        this.injectHeaderStyle();
     }
 
     /**
