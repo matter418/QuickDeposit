@@ -1,6 +1,6 @@
 # Quick Deposit
 
-A [RyeLite](https://github.com/ash-of-the-meadow/RyeliteDesktop) plugin that lets you skip the right-click context menu in common bank and crafting interfaces. Pick the quantity you want for each system in the plugin settings, and left-clicking does that action directly instead of opening the menu.
+A Highspell+ plugin that lets you skip the right-click context menu in common bank and crafting interfaces. Pick the quantity you want for each system in the plugin settings, and left-clicking does that action directly instead of opening the menu.
 
 ## Supported systems
 
@@ -17,7 +17,7 @@ Each system has its own dropdown so you can set `Off`, `1`, `5`, `10`, `100`, `A
 
 ## Installation
 
-The intended way to install is through RyeLite's built-in plugin hub once the plugin is published there. Open RyeLite, go to the plugins menu, find **Quick Deposit**, and enable it.
+The intended way to install is through the Highspell+ plugin hub. Open Highspell+, go to the plugins menu, find **Quick Deposit**, and enable it.
 
 ## Building from source
 
@@ -28,7 +28,7 @@ yarn install
 yarn build
 ```
 
-The bundled output ends up at `dist/QuickDeposit.js`. To test it locally against a development copy of RyeLite, copy that file into `RyeliteDesktop/src/renderer/client/plugins/` and launch the client.
+The bundled output ends up at `dist/QuickDeposit.js`. To test it locally against a development copy of Highspell+, copy that file into the client's `src/renderer/client/plugins/` and launch the client.
 
 ## How it works (briefly)
 
