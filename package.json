@@ -1,6 +1,6 @@
 {
   "name": "QuickDeposit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configure left-click in bank, brewing, kiln, crafting table, smelting, and smithing menus to perform a chosen quantity action (1/5/10/All/etc.) instead of the default.",
   "packageManager": "yarn@4.9.1",
   "engines": {
