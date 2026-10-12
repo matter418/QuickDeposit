@@ -1,6 +1,6 @@
 # Quick Deposit
 
-A Highspell+ plugin that lets you skip the right-click context menu in common bank and crafting interfaces. Pick the quantity you want for each system in the plugin settings, and left-clicking does that action directly instead of opening the menu.
+A [Highspell+](https://github.com/matter418/HighSpellPlus) plugin that lets you skip the right-click context menu in common bank and crafting interfaces. Pick the quantity you want for each system in the plugin settings, and left-clicking does that action directly instead of opening the menu.
 
 ## Supported systems
 
